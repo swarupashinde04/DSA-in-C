@@ -1,6 +1,6 @@
 //given array : 10 20 40 50  
 //to add 30 between 20 and 40
-
+ 
 #include <stdio.h>
 #include <stdlib.h>
 
