@@ -1,3 +1,39 @@
+# Doubly Linked List
+
+## Definition
+A Doubly Linked List is a linked list in which each node contains:
+- Data
+- Pointer to the previous node (`prev`)
+- Pointer to the next node (`next`)
+
+## Structure
+
+```c
+struct Node
+{
+    int data;
+    struct Node *prev;
+    struct Node *next;
+};
+```
+
+## Advantages
+- Traversal is possible in both forward and backward directions.
+- Deletion is easier when the previous node is needed.
+- Useful for browser history, undo/redo, and music playlists.
+
+## Disadvantages
+- Requires extra memory for the `prev` pointer.
+- Slightly more complex than a Singly Linked List.
+
+## Time Complexity
+Traversal: O(n)
+
+## Space Complexity
+O(1) Extra Space
+
+#program : -
+
 #include <stdio.h>
 #include <stdlib.h>
 
