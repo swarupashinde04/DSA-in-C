@@ -1,3 +1,29 @@
+# Header Linked List
+
+## Definition
+A Header Linked List is a linked list that contains an extra node called the **Header Node** before the first data node.
+
+## Purpose
+- Simplifies insertion and deletion operations.
+- Makes handling an empty linked list easier.
+- Can store useful information such as the number of nodes.
+
+## Advantages
+- Easy insertion and deletion.
+- Permanent starting node.
+- Can store metadata.
+
+## Disadvantage
+- Requires one extra node.
+
+## Time Complexity
+Traversal : O(n)
+
+## Space Complexity
+O(1) Extra Space
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
