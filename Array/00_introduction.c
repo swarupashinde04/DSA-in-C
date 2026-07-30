@@ -1,6 +1,6 @@
 // An array is a collectiion of elements of the same data type stored in contiguous memory locations. It allows you to store multiple values in a single variable, making it easier to manage and manipulate data.
 
-// Marks of 5 students : 
+// Marks of 5 students :
 int a = 85;
 int b = 90;
 int c = 78; 
