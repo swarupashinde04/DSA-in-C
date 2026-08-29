@@ -3,7 +3,7 @@
 // Marks of 5 students :
 int a = 85;
 int b = 90;
-int c = 78; 
+int c = 78;
 int d = 92;
 int e = 88;
 
